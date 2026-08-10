@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Corazón de Caramelo | Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,600&family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="marca">
+            <img src="img/logo.png" alt="Logo de Cake Corazón de Caramelo">
+            <h1>Cake Corazón <span>de Caramelo</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="titulo-pagina">
+            <h2>Contáctanos</h2>
+            <p>Cuéntanos qué pastel tienes en mente</p>
+        </section>
+        <section class="contacto-grid">
+            <form class="formulario" action="#" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50"
+                    placeholder="Tu nombre completo">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required placeholder="tucorreo@ejemplo.com">
+                <label for="categoria">Categoría de interés</label>
+                <select id="categoria" name="categoria">
+                    <option value="pasteles">Pasteles</option>
+                    <option value="cupcakes">Cupcakes</option>
+                    <option value="galletas">Galletas</option>
+                    <option value="personalizado">Pedido personalizado</option>
+                </select>
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" name="comentario" rows="5" required minlength="10" maxlength="300"
+                    placeholder="Cuéntanos la ocasión, el sabor o el diseño que buscas"></textarea>
+                <button type="submit" class="btn btn-primario">Enviar mensaje</button>
+            </form>
+            <div class="info-contacto">
+                <h3>Datos de contacto</h3>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/cakecorazondecaramelo/"
+                        target="_blank">@cakecorazondecaramelo</a></p>
+                <p><strong>Horario:</strong> Martes a domingo, 9:00 am a 6:00 pm</p>
+                <p><strong>Pedidos:</strong> Con mínimo 48 horas de anticipación</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Cake Corazón de Caramelo. Todos los derechos reservados.</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/cakecorazondecaramelo/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://wa.me" target="_blank">WhatsApp</a>
+        </div>
+    </footer>
+</body>
+
+</html>
